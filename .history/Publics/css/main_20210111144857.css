@@ -1,0 +1,433 @@
+.resiz {
+    width: 110% !important;
+    font-size: 10px !important;
+    position: relative;
+    left: 64% !important;
+    transition: .5s;
+    z-index: 1222;
+}
+
+.resiz_t {
+    width: 84% !important;
+    font-size: 12px !important;
+    position: relative;
+    left: 11% !important;
+    transition: .5s;
+    z-index: 1223;
+}
+
+.myInputResize {
+    position: relative;
+    top: 320px !important;
+    left: 19.5% !important;
+    transition: .5s;
+}
+
+.headerResize_solde {
+    position: relative;
+    left: 50% !important;
+    transition: .5s;
+}
+
+.headerResize_titre {
+    position: relative;
+    left: 51.7% !important;
+    transition: .5s;
+}
+
+.entete {
+    position: relative;
+    top: -80px;
+    padding-bottom: 30px;
+}
+
+.centre {
+    position: absolute;
+    left: 42%;
+    top: -35px;
+    font-weight: 700;
+    font-size: 48px !important;
+    color: rgba(255,255,255,.8) !important;
+    text-shadow: 5px 5px 4px #000 ;
+}
+
+.solde_content {
+    align-items: center;
+    width: 230px;
+    height: 80px;
+    background: orange;
+    border-radius: 10px;
+    box-shadow: 5px 7px rgba(0, 0, 0,.5);
+    /* border-radius: 90px / 50px; */
+    font-weight: 900 !important;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000;
+    padding-top: 5px;
+    font-style: italic;
+    letter-spacing: 1px;
+    position: relative;
+    left: 40%;
+    top: -50px;
+    color: white;
+    
+    /* border-bottom: 90px solid orange;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent; */
+    /* height: 0;
+    width: 100px; */
+}
+.total_compte{
+    font-size: 38px !important;
+}
+
+.affichage_depot {
+    height: 150px;
+    overflow-y: auto;
+}
+
+.affichage_depot_t {
+    position: relative;
+    top: 240px;
+}
+
+.adresse_content {
+    position: relative;
+    /* top: 450px; */
+}
+
+#myInput {
+    border-radius: 5px;
+    border: 1px black solid !important;
+    height: 50px;
+    position: relative;
+    left: 5px;
+    top: 320px;
+    margin-bottom: 50px;
+    height: 35px !important;
+    width: 300px !important;
+    ;
+}
+
+.affichage_depot_compte {
+    /* margin-left: 120px;*/
+    position: relative;
+    top: 120px;
+    width: 85% !important;
+    left: 7% !important;
+    padding-bottom: 250px !important;
+}
+
+
+/*
+-------------------------FORMULAIRE MON_COMPTE----------------------------
+*/
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(to right, #5493f8b5, #5493f87d, #5654f885);
+}
+
+.side {
+    font-size: 1.7em !important;
+    color: white;
+    padding: 0 7px 2px 20px !important;
+   /* padding-top: 0px !important;
+    padding-left: 7px !important;
+    padding-bottom: 2px !important;*/
+    font-style: italic;
+    font-weight: 800 !important;
+    position: relative;
+    /* left: 5% !important;*/ 
+    font-family: 'Times New Roman', Times, serif;
+    background: white;
+    border: white 1px solid;
+    border-radius: 7px;
+    text-shadow: /*relief*/
+    0 1px 0 rgb(75, 75, 75), 0 2px 0 rgb(52, 50, 50), 0 3px 0 rgb(46, 44, 44), 0 4px 0 rgb(41, 39, 39), 0 5px 0 rgb(41, 40, 40), 0 6px 0 rgb(48, 46, 46), /*ombre*/
+    6px 7px 5px rgba(0, 0, 0, .40), 6px 12px 10px rgba(0, 0, 0, .30), 6px 17px 20px rgba(0, 0, 0, .20), 6px 22px 30px rgba(0, 0, 0, .10);
+    /* color: white; */
+    -webkit-transform: rotateY(-20deg) rotateX(30deg);
+    transform: rotateY(-20deg) rotateX(30deg);
+}
+
+.login-box {
+    position: absolute;
+    top: 500%;
+    left: 50%;
+    height: 410px;
+    width: 100%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, .3);
+    box-sizing: border-box;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .7);
+    border-radius: 10px;
+    z-index: 2000;
+    padding: 50px 100px !important; 
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box select {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: #03e9f4;
+    font-size: 12px;
+}
+
+.login-box form a {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: #03e9f4;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px
+}
+
+.login-box a:hover {
+    background: #03e9f4;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
+    cursor: pointer;
+}
+
+.login-box a span {
+    position: absolute;
+    display: block;
+}
+
+.login-box a span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #03e9f4);
+    animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+    0% {
+        left: -100%;
+    }
+    50%,
+    100% {
+        left: 100%;
+    }
+}
+
+.login-box a span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #03e9f4);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+    0% {
+        top: -100%;
+    }
+    50%,
+    100% {
+        top: 100%;
+    }
+}
+
+.login-box a span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+    0% {
+        right: -100%;
+    }
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+.login-box a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+    0% {
+        bottom: -100%;
+    }
+    50%,
+    100% {
+        bottom: 100%;
+    }
+}
+
+
+/* Span container */
+
+
+/* .login-box span {
+    position: absolute;
+    display: block;
+}
+
+.login-box span:nth-child(1) {
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #f40380);
+    animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+    0% {
+        left: -10%;
+    }
+    50%,
+    100% {
+        left: 50%;
+    }
+}
+
+.login-box span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #f40380);
+    animation: btn-anim2 1s linear infinite;
+    animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+    0% {
+        top: 0%;
+    }
+    50%,
+    100% {
+        top: 100%;
+    }
+} */
+
+
+/* 
+.login-box span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #03e9f4);
+    animation: btn-anim3 1s linear infinite;
+    animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+    0% {
+        right: -100%;
+    }
+    50%,
+    100% {
+        right: 100%;
+    }
+}
+
+.login-box span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #03e9f4);
+    animation: btn-anim4 1s linear infinite;
+    animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+    0% {
+        bottom: -100%;
+    }
+    50%,
+    100% {
+        bottom: 100%;
+    }
+} */
+
+
+/*
+  -----------------------------------Fin formulaire--------------------------------------
+*/
+
+
+/* #trapezoid {
+   
+    
+} */
+
+@media (max-width: 450px) {
+    .centre {
+        margin: auto;
+    }
+}
